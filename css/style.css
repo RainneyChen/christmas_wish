@@ -1,0 +1,328 @@
+html{
+	font-size: 12px;
+	height: 100%;
+}
+body{
+	font-family: "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro","微軟正黑體", "Microsoft JhengHei",  "標楷體", DFKai-SB, sans-serif,Arial;
+}
+.innerPage {
+	height: auto;
+          background-image: url(../images/bgweb2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: 100% 100%;
+}
+.home {
+	height: auto;
+          background-image: url(../images/bgweb100.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: 100% 100%;
+}
+.bg-img {
+            top: 0%;
+            left: 50%;
+            z-index: -999;
+			width: 100%;
+			height:100%;
+        }
+		
+.imgMob {
+    display:none;
+  }
+
+.title{
+	height:auto;
+	vertical-align:middle;
+	margin-top:4%;
+	text-align:center;
+}
+
+.homeTxt{
+	height:auto;
+	vertical-align:middle;
+	margin-top:2%;
+	text-align:center;
+}
+.shineTxt{
+	text-align:left;
+}
+
+.txtShine{
+	z-index:1;
+	position: fixed; 
+	width:15%;
+	height:auto;
+}
+
+.percentage{
+	font-size:3rem; 
+	color:orange;
+	margin:16% 0 0 35%
+}
+
+.rwdtxt{
+	font-size: 1.5rem;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.innertxt {
+	font-size: 1.2rem;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	color:#FFFFFF;
+	line-height:1.5;
+}
+
+.imgTitle{
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+
+.imgFlow{
+	margin-top:8%;
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+
+a.nav-link{
+	  border-right:1px #FFF solid;
+	  line-height:0.8rem;
+	  font-size: 1.3rem;
+} 
+
+.imgAct{
+	width:100%;
+	height:auto;
+}
+
+@media screen and (max-width: 1920px) { /*在螢幕小於1920px時，套用此css*/
+  .rwdtxt {
+	font-size: 1.15rem;
+  }
+  .mainTitle{
+	width:70%;
+	height:auto;
+  }
+
+}
+@media screen and (max-width: 1366px) { 
+	.percentage{
+		font-size:2.5rem; 
+		margin:15% 0 0 35%
+	}
+}
+
+@media screen and (max-width: 1025px) { /*在螢幕小於1920px時，套用此css*/
+    /*.imgTitle3{
+		width:100%;
+		height:auto;
+	}*/
+}
+
+@media screen and (max-width: 768px) and (min-height:1024px){
+	.innerPage  {
+		background-image: url(../images/bgmobile2.jpg);
+	}
+	.home  {
+		background-image: url(../images/bgmobile.jpg);
+	}
+	a.nav-link{
+		border-right:none;
+		line-height:2rem;
+	}
+    .rwdtxt {
+     font-size: 1rem;
+	}
+  
+	.title{
+		height:auto;
+		vertical-align:middle;
+		margin-top:6%;
+	}
+	.imgFlow{
+		margin-top:15%;
+	}
+	.imgAct{
+		margin:10% 0 10% 0;
+	}
+}
+}
+
+@media screen and (max-width: 768px) and (min-height:539px){
+	.home  {
+		background-image: url(../images/bgweb.jpg);
+	}
+	.innerPage  {
+		background-image: url(../images/bgweb2.jpg);
+	}
+    .rwdtxt {
+		font-size: 1.2rem;
+	}
+	.innertxt {
+		font-size: 1rem;
+	}
+	.title{
+		height:auto;
+		vertical-align:middle;
+		margin-top:6%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.home  {
+		background-image: url(../images/bgmobile.jpg);
+	}
+	.innerPage  {
+		background-image: url(../images/bgmobile2.jpg);
+	}
+	a.nav-link{
+		border-right:none;
+		line-height:1.5rem;
+	}
+    .rwdtxt {
+		font-size: 1.2rem;
+	}
+	.innertxt {
+		font-size: 1rem;
+	}
+	.title{
+		height:auto;
+		vertical-align:middle;
+		margin-top:6%;
+	}
+	.mainTitle{
+		width:100%;
+		height:auto;
+	 }
+	.homeTxt{
+		margin-top:5%;
+	}
+	.shineTxt{
+		text-align:cneter;
+	}
+
+	.txtShine{
+		width:50%;
+		height:auto;
+	}
+	.percentage{
+		font-size:2.6rem; 
+		margin:25% 0 0 55%
+	}
+
+	.imgTitle{
+		width:50%;
+	}
+	.imgTitle2{
+		margin-left:0%;
+	}
+	.imgFlow{
+		margin-top:20%;
+	}
+	
+	.navbar{
+		text-align:right;
+	}
+	.controlArrow {
+		margin-top: -70%;
+	}
+	.imgAct{
+		margin:10% 0 10% 0;
+	}
+}
+@media screen and (max-height: 668px){
+	.rwdtxt {
+		font-size: 0.9rem;
+	}
+	.innertxt {
+		font-size: 0.85rem;
+	}
+}
+@media screen and (max-height: 569px){
+	.rwdtxt {
+		font-size: 0.8rem;
+	}
+	.innertxt {
+		font-size: 0.7rem;
+	}
+	.percentage{
+		font-size:2.2rem; 
+		margin:22% 0 0 55%
+	}
+}
+ul li{
+	font-family:  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro","微軟正黑體", "Microsoft JhengHei",  "標楷體", DFKai-SB, sans-serif,Arial;
+	
+}
+
+/*background 設定*/
+/*#bg-img {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: -99;
+        }
+
+@media screen and (max-width: 1920px) { 
+ .bkImg {
+    width: 1920px;
+    height:auto;
+  }
+}
+@media screen and (max-width: 1366px) { 
+ .bkImg {
+    width: 1366px;
+    height:auto;
+  }
+}*/
+
+  
+
+/*ul li{
+	float:right;
+	margin-right:5%
+	margin-top:5%
+    border:1px #ccc solid;
+}
+#ul{
+float:left;
+left: 50%;
+position: relative;
+}
+
+ #navBar {
+      z-index: 1;
+      float: right;
+left: -50%;
+position: relative;
+  }*/
+  
+/*  .nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	text-align:center;
+}*/
+  #popupEventInfo {
+	  background-image: url(../images/bgpopup2.svg);
+	  background-position:center;
+	  background-repeat: no-repeat;
+      background-size: 100% 100%;
+	  width:100%;
+	  height:50%;
+  }
+  .fancybox-close-small {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 8040;
+}

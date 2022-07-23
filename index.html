@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="TW">
+<head>
+<meta charset="utf-8"  name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<!--<link rel="stylesheet" href="css/fullPage.css">-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"  type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css">
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<!--<script src="js/fullPage.min.js"></script>-->
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/index.js"></script>
+
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="margin-top:1%; float:right">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left:85%">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+		<ul id="navBar" class="nav navbar-nav mx-auto">
+			<li class="nav-item active" data-menuanchor="page1"><a class="nav-link" href="#page1">首頁<span class="sr-only">(current)</span></a></li>
+			<li class="nav-item" data-menuanchor="page2"><a class="nav-link" href="#page2">活動簡介</a></li>
+			<li class="nav-item" data-menuanchor="page3"><a class="nav-link" href="#page3">認領流程</a></li>
+			<li class="nav-item" data-menuanchor="page4"><a class="nav-link" href="#page4">個資宣告</a></li>
+			<li class="nav-item" data-menuanchor="page5"><a class="nav-link" href="#page5" style="border:none;">實體活動</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div id="fullpage">
+<!--首頁-->
+<div class="section home">
+	<!--<img class="bg-img imgWeb" src="images/bgweb.jpg" />
+	<img class="bg-img imgMob" src="images/bgmobile.jpg" />-->
+	<div id="popupEventInfo" class="inline"  style="padding:0; width:70%" role="dialog" data-backdrop="static" data-keyboard="false"></div>
+	<div class="row title justify-content-center">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6">
+			<img class="mainTitle" src="images/title.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row homeTxt">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6">
+			<img class="mainTitle" src="images/homeTxt.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row shineTxt">
+		<div class="col-xl-6 col-3"></div>
+		<div class="col-xl-3 col-6">
+			<img class="txtShine" src="images/txtShine.svg"/>
+			<div class="percentage">100</div>
+		</div>
+		<div class="col-xl-3 col-3"></div>
+	</div>
+</div> 
+<!--活動簡介-->
+<div class="section innerPage">
+	<div class="row title">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6" style="margin-top:5%">
+			<img class="mainTitle" src="images/title.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-5 col-2"></div>
+		<div class="col-xl-2 col-8" style="text-align:center;margin-top:2%;">
+			<img class="imgTitle" src="images/TitlePage1.svg"/>
+		</div>
+		<div class="col-xl-5 col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-3 col-1"></div>
+		<div class="col-xl-6 col-10">
+			<div id="Page2W">
+				<div class="rwdtxt">源起</div>
+				<div class="innertxt">錠嵂藍鵲×家扶×新東陽共同合作募集屏東及台南縣家扶250位兒童的聖誕願望。為守護孩子們度過一個充滿歡樂的聖誕節， 主辦單位錠嵂藍鵲社會福利基金會協同家庭扶助基金會和新東陽股份有限公司發起『家扶兒童聖誕心願禮物募集活動』，邀請 您伸出雙手給家一個溫度。</div>
+				</br>
+				<div class="rwdtxt">還記得你什麼時候開始不相信有聖誕老人?</div>
+				<div class="innertxt">當我們還是孩子的時候，聖誕節總深信著只要表現好就會得到禮物；只要努力付出就會獲得美好成果。 家扶的孩子受限於自身環境的缺乏或是有特殊需求的兒童，三餐求溫飽即是努力的目標，家庭難以滿足孩子心中的小心願。似 乎，從出生的那一刻起，家扶孩子就被剝奪相信聖誕老人的機會。</div>
+				</br>
+				<div class="rwdtxt">聽見孩子的聖誕心願</div>
+				<div class="innertxt">每一張畫都是孩子們親手繪出的聖誕心願，因為要學習可能是文具；因為想成為世界田徑選手可能是一雙跑步鞋；因為想吃到 熱騰騰的飯又可能是電鍋。藉由一張一張孩子親筆畫下的心願並說著「為什麼我想要這份禮物?」將這份真摯傳遞給你我。 選擇你想守護的孩子，親自購買他的聖誕心願禮物，由錠嵂聖誕快遞天使幫您送到錠嵂藍鵲社福基金會，統一寄送到屏東及台 南縣家扶中心，交到孩子手上並告訴他「孩子，這個世界上真的有一位聖誕老公公在守護著你，你要平平安安、快快樂樂的長 大!」。</div>
+			</div>
+			<div id="Page2M" style="margin-top:2%;">
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="rwdtxt">源起</div>
+						<div class="innertxt">錠嵂藍鵲×家扶×新東陽共同合作募集屏東及台南縣家扶250位兒童的聖誕願望。為守護孩子們度過一個充滿歡樂的聖誕節， 主辦單位錠嵂藍鵲社會福利基金會協同家庭扶助基金會和新東陽股份有限公司發起『家扶兒童聖誕心願禮物募集活動』，邀請 您伸出雙手給家一個溫度。</div>
+						</br>
+						<div class="rwdtxt">還記得你什麼時候開始不相信有聖誕老人?</div>
+						<div class="innertxt">當我們還是孩子的時候，聖誕節總深信著只要表現好就會得到禮物；只要努力付出就會獲得美好成果。 家扶的孩子受限於自身環境的缺乏或是有特殊需求的兒童，三餐求溫飽即是努力的目標，家庭難以滿足孩子心中的小心願。似 乎，從出生的那一刻起，家扶孩子就被剝奪相信聖誕老人的機會。</div>
+						
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						
+						<div class="rwdtxt">聽見孩子的聖誕心願</div>
+						<div class="innertxt">每一張畫都是孩子們親手繪出的聖誕心願，因為要學習可能是文具；因為想成為世界田徑選手可能是一雙跑步鞋；因為想吃到 熱騰騰的飯又可能是電鍋。藉由一張一張孩子親筆畫下的心願並說著「為什麼我想要這份禮物?」將這份真摯傳遞給你我。 選擇你想守護的孩子，親自購買他的聖誕心願禮物，由錠嵂聖誕快遞天使幫您送到錠嵂藍鵲社福基金會，統一寄送到屏東及台 南縣家扶中心，交到孩子手上並告訴他「孩子，這個世界上真的有一位聖誕老公公在守護著你，你要平平安安、快快樂樂的長 大!」。</div>
+						</br>
+						<div class="rwdtxt">讓我們一起做夢吧！</div>
+						<div class="innertxt">什麼時候開始我們不再浪漫、不再做夢？你有多久沒有期待幸福和奇蹟降臨？ 這是一個不一樣的公益活動，或許你會問「為什麼不捐錢?」「為什麼要我親自買禮物?」這次，我們想做的不一樣！ 喚起您童年的純真時刻，親手完成孩子們的聖誕心願。讓我們跟孩子一起做夢吧！</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-6 col-1"></div>
+	</div>
+</div>
+<!--認領流程-->
+<div class="section innerPage">
+	<div class="row title">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6">
+			<img class="mainTitle" src="images/title.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-2 col-1"></div>
+		<div class="col-xl-8 col-10" style="height:35%;text-align:center;">
+			<img id="imgFlowW" class="imgFlow" src="images/FlowWeb.svg"/ style="margin-top:3%;">
+			<img id="imgFlowM" class="imgFlow" src="images/FlowMobile.svg"/ >
+		</div>
+		<div class="col-xl-2 col-1"></div>
+	</div>
+</div>
+<!--個資宣告-->
+<div class="section innerPage">
+	<div class="row title">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6" style="margin-top:5%;">
+			<img class="mainTitle" src="images/title.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-5 col-2"></div>
+		<div class="col-xl-2 col-8" style="text-align:center;margin-top:2%;">
+			<img class="imgTitle imgTitle2" src="images/TitlePage3.svg">
+		</div>
+		<div class="col-xl-5 col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-3 col-1"></div>
+		<div class="col-xl-6 col-10">
+			<div style="margin-top:2%;display:show">
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="innertxt">壹、台 端 因於參加錠嵂藍鵲社會福利基金會(以下簡稱「本會」)所舉辦之活動， 為供本會於辦理前述活動之特定目的必要範圍內處理及利用此個人資料，然因事涉隱私權 益， 謹依個人資料保護法(以下簡稱「個資法」)第七條第一項、第十九條第一項第五款、第 八條第 一項規定，向 台端告知下列事項： 壹、蒐集之目的：依「個資法之特定目的及個人資料之類別」，欲以業務承辦人員於辦理 該活動特定目的之蒐集、處理、利用。（如：活動報名、行銷、客戶管理與服務、調查、 統計、展示與研究分析。）</div>
+						<div class="innertxt">貳、蒐集之個人資料類別：依「個資法之特定目的及個人資料之類別」，本會所蒐集個人 資料類型為辨識個人，含姓名、性別、年齡、手機號碼及電子郵件等。</div>
+						<div class="innertxt">參、個人資料利用之期間、地區、對象及方式：</div>
+						<div class="innertxt">一、期間：依本公司因執行業務所必須及相關法令規定應為保存之期間。</div>
+						<div class="innertxt">二、地區：下揭對象其國內及國外所在地。</div>
+						<div class="innertxt">三、對象：本公司(含受本公司委託處理事務之委外機構)、依法有權之主管機關或金融 監理機關。</div>	
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="innertxt">四、方式：符合個人資料保護相關法令以自動化機器或其他非自動化之利用方式。 </div>
+						<div class="innertxt">肆 、依據個資法第三條規定， 台端就本會保有您之個人資料得行使下列權利：</div>
+						<div class="innertxt">一、除有個資法第十條所規定之例外情形外，得向本會查詢、請求閱覽或請求製給複製惟本會依個資法第十四條規定得酌收必要成本費用。</div>
+						<div class="innertxt">二、得向本會請求補充或更正，惟依個資法施行細則第十九條規定，您應適當釋明其原因及事實。</div>
+						<div class="innertxt">三、本會如有違反個資法規定蒐集、處理或利用您之個人資料，依個資法第十一條第四項規定，您得向本會請求停止蒐集。 </div>
+						<div class="innertxt">四、依個資法第十一條第二項規定，個人資料正確性有爭議者，您得向本會請求停止處理或利用您之個人資料。惟依該項但書規定，本會因執行業務所必須或經您書面同意並註明 其爭議者，不在此限。</div>
+						<div class="innertxt">五、依個資法第十一條第三項規定，個人資料蒐集之特定目的消失或期限屆滿時，您得向</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="innertxt">本會請求刪除、停止處理或利用您之個人資料。惟依該項但書規定，本會因執行業務所必 須或經您書面同意者，不在此限。</div>
+						<div class="innertxt">伍 、台端 成功報名後，本會以電話、簡訊、電子郵件等方式通知時，均視為 台端已同意個人資料，供本會於辦理活動之特定目的必要範圍內處理及利用，若 台端選擇不願提供個人資料，將無法聯繫參加本次活動，敬請見諒。</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-3 col-1"></div>
+	</div>
+</div>
+<!--實體活動-->
+<div class="section innerPage">
+	<div class="row title">
+		<div class="col-xl-4 col-3"></div>
+		<div class="col-xl-4 col-6" style="margin-top:5%;">
+			<img class="mainTitle" src="images/title.svg"/>
+		</div>
+		<div class="col-xl-4 col-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-xl-5 col-2"></div>
+		<div class="col-xl-2 col-8" style="text-align:center;margin-top:2%;">
+			<img class="imgTitle" src="images/TitlePage4.svg"/>
+		</div>
+		<div class="col-xl-5 col-2"></div>
+	</div>
+	<div class="row">
+			<div class="col-xl-3 col-1"></div>
+			<div class="col-xl-6 col-10">
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="row align-items-center">
+							<div class="col-sm-4">
+								<img class="imgAct" src="images/activity1.svg"/>
+							</div>	
+							<div class="col-sm-8">
+								<div class="innertxt">「給家一點溫度」~星願小屋聖誕裝置藝術 </br>
+								錠嵂藍鵲社福基金會為募集屏東及台南縣家扶兒的聖誕禮物，攜手與新東陽股份有限公司合 作，基金會邀請青年藝術家鄭婉婉創作，將於11/10-12/25期間在台中清水服務區策展。來來 往往的行旅者可以在這塊區域裡觀看到每個星願小屋裡孩子的聖誕心願，還可以透過手機掃描 QR Code聽見孩子訴說聖誕心願。當您獲得喘息空間與感受聖誕節的溫暖與幸福同時，誠摯 邀請您成為孩子的聖誕老人，認領一份禮物，給家一點溫度!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">	
+						<div class="row align-items-center">
+							<div class="col-sm-4">
+								<img class="imgAct" src="images/activity1.svg"/>
+							</div>
+							<div class="col-sm-8">
+								<div class="innertxt">星願小屋意義 </br>
+家屋是鄭婉婉藝術家近年裝置創作的主題源頭，透過錠嵂藍鵲社福基金會的邀請，為此次募集家扶中心孩子們的 聖誕禮物而創作。家屋對一般孩子們而言除了原生家庭的生命起源與安全感的來源外，是童年重要的堡壘，而家 扶中心長年為許多失家功能的孩子提供家的需求與溫暖。因此結合藝術家鄭婉婉創作元素，將製作120件透明窗 花小屋，讓參與觀眾能於裝置中觀看孩童親製心願小卡，裝置以串燈懸掛吊飾呈現，象徵透過捐助行動成為250 位需要愛的孩童家中點燈的一股溫暖力量。
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="row align-items-center">
+							<div class="col-sm-4">
+								<img class="imgAct" src="images/activity1.svg"/>
+							</div>	
+							<div class="col-sm-8">
+								<div class="innertxt">藝術家介紹＆nbsp;鄭婉婷(婉婉)</br>
+wan wan 難以定義也不想被定義，玩視覺藝術，涉足表演，會做舞台設計與服裝，美術教學像在教生活，指導學 生不喜歡苦磨技巧，希望學生從藝術中認識自己。因為對我來說，藝術即生活，走穩每一個腳步，不論拙劣好 壞，都要真誠付出與接受，並隨時觀照真實的自己。目前於台北居住創作。 </br>
+近年展覽作品
+2018《 2018漫遊者的城市詩意 》 互動裝置 | 日常無感指南 |台北當代藝術館</br>
+2017《 方隅一現 》壓克力茶道具︱ 三徑就荒︱ 台北，台灣
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div style="margin:0px 50px 0px 50px;">
+						<div class="row align-items-center">
+							<div class="col-sm-4">
+								<img class="imgAct" src="images/activity1.svg"/>
+							</div>	
+							<div class="col-sm-8">
+								<div class="innertxt">
+2016《 煉物癖 |日常光景 》複合媒材 / 繪畫裝置︱ CHIAO tea salon︱ 台北，台灣</br>
+2015《 家屋計畫 - 居所 》複合媒材 / 裝置 ︱ 台灣藝術家博覽會 ︱ 台北，台灣</br>
+2015《 ?言、巫息 》 裝 置︱ 愛自由當代書藝 Love for Freedom Calligraphy︱ 台北，台灣</br>
+2014《 歷程系列 - 縛 》 裝置︱ 螺陽文教基金會 ︱ 72ART  共植 / CoPlanted計畫︱ 西螺，台灣</br>
+2014《 鱗 翅 目 - 蝶 》 壓克力 / 複合媒材︱ 台灣藝術家博覽會︱ 台北，台灣</br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-1"></div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
